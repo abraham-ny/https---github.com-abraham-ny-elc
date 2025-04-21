@@ -1,21 +1,23 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333; /* Softer text color */
 }
 
 .bg-green {
-    background-color: #006400; /* Kenya Judiciary Green */
+    background-color: #228B22; /* Softer green */
 }
 
 .bg-gold {
-    background-color: #FFD700; /* Kenya Judiciary Gold */
+    background-color: #FFC107; /* Softer gold */
 }
 
 .text-green {
-    color: #006400; /* Kenya Judiciary Green */
+    color: #228B22;
 }
 
 .text-gold {
-    color: #FFD700; /* Kenya Judiciary Gold */
+    color: #FFC107;
 }
 
 .list-group-item a {
@@ -41,7 +43,16 @@ body {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
+.card-img-top {
+    height: 150px;
+    object-fit: cover;
+}
+
 .badge {
     font-size: 0.9rem;
     padding: 0.5em 0.75em;
+}
+
+.active-card {
+    border: 2px solid #FFC107; /* Highlight selected card */
 }
