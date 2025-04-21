@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.bg-green {
+    background-color: #006400; /* Kenya Judiciary Green */
+}
+
+.bg-gold {
+    background-color: #FFD700; /* Kenya Judiciary Gold */
+}
+
+.text-green {
+    color: #006400; /* Kenya Judiciary Green */
+}
+
+.text-gold {
+    color: #FFD700; /* Kenya Judiciary Gold */
+}
+
+.list-group-item a {
+    text-decoration: none;
+    color: #006400;
+}
+
+.list-group-item a:hover {
+    color: #FFD700;
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+}
+
+.card {
+    border: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.badge {
+    font-size: 0.9rem;
+    padding: 0.5em 0.75em;
+}
