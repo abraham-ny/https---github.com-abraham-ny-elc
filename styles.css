@@ -20,6 +20,13 @@ body {
     z-index: 1050; /* Ensure it appears above other elements */
 }
 
+/* Dropdown menu items */
+.dropdown-item {
+    white-space: normal; /* Allow text to wrap */
+    word-wrap: break-word; /* Break long words if necessary */
+    max-width: 300px; /* Optional: Set a maximum width */
+}
+
 .navbar::before {
     content: '';
     position: absolute;
