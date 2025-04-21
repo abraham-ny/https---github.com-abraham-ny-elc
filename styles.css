@@ -10,7 +10,7 @@ body {
 
 /* Navbar styles */
 .navbar {
-    background-color: #6EC1E4; /* Secondary color */
+    background-color: #6c757d; /* Updated primary color */
     position: relative;
     overflow: visible;
 }
@@ -189,7 +189,7 @@ section:last-child {
 
 /* Footer styles */
 footer {
-    background-color: #6EC1E4; /* Secondary color */
+    background-color: #6c757d; /* Updated primary color */
     color: #FFFFFF;
     position: relative;
     overflow: hidden;
